@@ -1,7 +1,13 @@
 $ git add app.js //to add the new file to the Git staging area.
-//to make your first commit with the new file.
-$ git commit -m "Commit Name Here"
+$ git commit -m "Commit Name Here" //to make your first commit with the new file.
+
 // After creating the repository on GitHub
 $ git remote add origin " rep address" https://github....
 $ git push -u origin main //to push work to Remote Repository
 $ git log //shows log of all commits including the author & date
+
+-----------------------------------
+
+$ git branch //allows us to list all branches (current branch marked with asterisk)
+$ git branch <branch_name> //creates a new branch in the repository (no spaces in name)
+$ git switch <branch_name> //switches to specified branch (case sensitive)
